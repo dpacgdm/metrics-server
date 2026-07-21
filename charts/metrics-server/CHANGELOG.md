@@ -14,6 +14,10 @@
 
 ## [UNRELEASED]
 
+### Added
+
+- Allow configuring `tls.certManager.existingIssuer.group` so external cert-manager issuers (e.g. aws-privateca-issuer) resolve correctly. ([#1844](https://github.com/kubernetes-sigs/metrics-server/pull/1844)) @dpacgdm
+
 ## [3.14.0] - TBC
 
 ### Added
